@@ -15,3 +15,18 @@
  */
 
  @import "bulma";
+
+ .navbar-brand .title {
+  color: white;
+ }
+
+ .image {
+   border: 50%;
+   img {
+     border-radius: 50%;
+   }
+ }
+
+.notifications:not(:lastchild) {
+  margin-bottom:0;
+}
