@@ -1,0 +1,38 @@
+
+<div class="section">
+  <div class="container">
+    <div class="columns is-centered">
+
+      <div class="column is-4">
+        <h5 class="title is-4">Forgot your password?</h5>
+
+          <%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+          <%= f.error_notification %>
+
+          <div class="field">
+            <div class="control">
+                <%= f.input :email,
+                            required: true,
+                            input_html: { class: "input"}, wrapper: false, label_html: {class: "label"} %>
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="control">
+                <%= f.button :submit, "Send me reset password instructions", class: "button is-info is-medium" %>
+            </div>
+          </div> 
+
+        <% end %>
+        <br/>
+
+        <%= render "devise/shared/links" %>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+
+

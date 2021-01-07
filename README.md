@@ -1,24 +1,36 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Twitter-clone
 
-Things you may want to cover:
+> This project is a junior version of Twitter. Where a user can Post,Edit and Delete Tweet, If he is signed in. Anybody if he is signed in or not can see the tweets.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby
+- Rails
+- Active Record
+- Devise
+- Bulma
+- Html
+- CSS
 
-* Configuration
+## How to run
 
-* Database creation
+1. Open Terminal.
+2. Write git clone https://github.com/hamayun-cpu/twitter_clone.git
+3. Go to the root directory.
+4. Write yarn install
+5. Write bundle install
+6. Write rails server
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+The project is public.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 **Hamayun**
 
-* ...
+- Github: [githubhandle](https://github.com/hamayun-cpu)
+- Twitter: [twitterhandle](https://twitter.com/hamayun_waheed?s=09&fbclid=IwAR0rfO9cMDDeCX8LfXf4cCNQDrL4LpJ02Q2csWhcT-VtMQ0Cy9EgTB4Wq8E)
+- Linkedin: [linkedin](https://www.linkedin.com/in/hamayun-waheed/)
