@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Twitter</title>
+    <title>Members-Only</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -26,7 +26,7 @@
   <nav class="navbar is-info">
     <div class="navbar-brand">
       <%= link_to root_path, class: "navbar-item" do%>
-        <h1 class = "title is-5">Twitter</h1>
+        <h1 class = "title is-5">Members-Only</h1>
       <%end%>
       <div class="navbar-burger burger" data-target="navbarExample">
         <span></span>
@@ -40,7 +40,7 @@
       <div class="navbar-item">
         <div class="field is-grouped">
           <p class="control">
-            <%= link_to 'New_Tweet', root_path, class: "button is-info is-inverted"%>
+            <%= link_to 'New_Post', root_path, class: "button is-info is-inverted"%>
           </p>
           <% if user_signed_in? %>
             <p class="control">
