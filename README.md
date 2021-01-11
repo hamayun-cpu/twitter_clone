@@ -2,7 +2,7 @@
 
 # Twitter-clone
 
-> This project is a junior version of Twitter. Where a user can Post,Edit and Delete Tweet, If he is signed in. Anybody if he is signed in or not can see the tweets.
+> This project is junior version of twitter. Where a Signed In User can tweet and can edit and delete it. If the user is not SigneIn he can only view the tweets.
 
 ## Built With
 
@@ -12,7 +12,8 @@
 - Devise
 - Bulma
 - Html
-- CSS
+- SCSS
+- Javascript
 
 ## How to run
 
