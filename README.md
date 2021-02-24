@@ -2,7 +2,7 @@
 
 # Twitter-clone
 
-> This project is junior version of twitter. Where a Signed In User can tweet and can edit and delete it. If the user is not SigneIn he can only view the tweets.
+> This project is junior version of twitter. Where a Signed In User can tweet and can edit and delete it. If the user is not SignedIn he can only view the tweets.
 
 ## Built With
 
